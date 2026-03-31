@@ -1,13 +1,18 @@
-# <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/d024193a-0b6d-4789-b691-16abaed87528" /> Ataques-de-Forca-Bruta-em-chaves
+# 🔐 Ataques de Força Bruta em Chaves
 
-Este projeto demonstra o funcionamento do algoritmo AES e a importância do tamanho da chave na segurança da criptografia.
+Este projeto demonstra, na prática, como ataques de força bruta funcionam e como o tamanho da chave impacta diretamente na segurança da criptografia utilizando AES.
 
 ## 📌 Demonstrações
 
-- Criptografia com chave fraca (2 bytes repetidos)
+- Criptografia com chave fraca (baixa entropia)
 - Ataque de brute force em tempo real
 - Criptografia com AES-128
 - Estimativa de tempo de quebra
+
+## 🧠 Conceito
+
+O algoritmo AES continua seguro.  
+O que define a segurança é a força da chave utilizada.
 
 ## 🚀 Tecnologias
 
@@ -16,6 +21,6 @@ Este projeto demonstra o funcionamento do algoritmo AES e a importância do tama
 
 ## ▶️ Como executar
 
-```
+```bash
 pip install pycryptodome
 python main.py
