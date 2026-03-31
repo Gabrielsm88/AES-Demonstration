@@ -4,7 +4,7 @@ Este projeto demonstra, na prática, como ataques de força bruta funcionam e co
 
 ## 📌 Demonstrações
 
-- Criptografia com chave fraca (baixa entropia)
+- Criptografia com chave fraca (2 bytes repetidos)
 - Ataque de brute force em tempo real
 - Criptografia com AES-128
 - Estimativa de tempo de quebra
